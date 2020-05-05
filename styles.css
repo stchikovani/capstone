@@ -1,0 +1,202 @@
+body{
+  background-color: #8bc34a;
+  color: #ffffff;
+}
+
+.navbar {
+  background-color: #8bc34a;
+}
+
+.hero-background {
+  background-image: url(burger-banner1.jpg);
+  height: 400px;
+  background-repeat: repeat;
+  background-size: cover;
+  border-bottom:1px solid #8bc34a
+}
+
+.hero-background-menu{
+  background-image: url(bob-cooking.jpg);
+  height: 400px;
+  background-repeat: repeat;
+  background-size: cover;
+  border-bottom:1px solid #8bc34a
+}
+
+.hero-background-about-us {
+  background-image: url(family-photo.jpg);
+  height: 400px;
+  background-repeat: repeat;
+  background-size: cover;
+  border-bottom:1px solid #8bc34a
+}
+
+.hero-background-contact-us {
+  background-image: url(family-contact-us.jpg);
+  height: 400px;
+  background-repeat: repeat;
+  background-size: cover;
+  border-bottom:1px solid #8bc34a
+}
+
+.jumbotron-fluid {
+  color: red;
+}
+
+.jumbotron-text {
+  background-color: yellow;
+}
+
+.hero-background2 {
+  background-image: url(burger-mail.png);
+  background-repeat:repeat;
+  height: auto;
+  width: 100;
+}
+
+.footer {
+  height: 30vh;
+  margin: 0;
+  background: #ffffff;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-cta {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-cta p {
+  margin: 0;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.footer-links {
+  text-align: left;
+}
+
+.footer-links li {
+  list-style: none;
+}
+
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+  text-align: left;
+}
+
+.footer-copyright {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2c3e50;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.foot{
+  background-color: #8bc34a
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+#Business_hour_panel{
+  border-style: none;
+}
+
+.panel-heading {
+    font-size: 1.32em;
+    height: 60px;
+}
+
+ tbody, .danger, .success {
+    border-color: #6D6DA4;
+    font-size: 1.5;
+    font-weight: 500;
+    text-align: center;
+}
+
+#headerPopup{
+  width: 75%;
+  height: auto;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  height: 100%;
+  margin:0 auto;
+}
